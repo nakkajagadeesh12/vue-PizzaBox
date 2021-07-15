@@ -1,11 +1,9 @@
 <template>
 <div class="container">
 <div class="block">
-<div>
 <div>Small</div>
 <div>Medium</div>
 <div>Large</div>
-</div>
 </div>
 <hr/>
 <div class="block">
