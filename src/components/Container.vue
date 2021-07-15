@@ -2,20 +2,20 @@
 <div class="container">
 <div class="sub-container">
 <div class="block">
-<div>Icon</div>
+<div><i class="fas fa-pizza-slice"></i></div>
 <div>Small</div>
 <div>-</div>
 <div>{{adults}}</div>
 <div>+</div>
 </div>
 <div class="block">
-<div>Icon</div>
+<div><i class="fas fa-pizza-slice"></i></div>
 <div>Medium</div>
 <div>-</div>
 <div>{{adults}}</div>
 <div>+</div></div>
 <div class="block">
-<div>Icon</div>
+<div><i class="fas fa-pizza-slice"></i></div>
 <div>Large</div>
 <div>-</div>
 <div>{{adults}}</div>
