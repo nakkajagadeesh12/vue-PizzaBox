@@ -6,6 +6,7 @@ Block 1
 <hr/>
 <div>
 Block 2
+{{name}}
 </div>
 <hr/>
 <div>
@@ -16,6 +17,11 @@ Block 3
 <script>
 export default {
   name : "Container",
+  data(){
+    return{
+name : "nn"
+    }
+  }
 }
 </script>
 
