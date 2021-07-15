@@ -1,17 +1,25 @@
 <template>
 <div class="container">
-<div class="block">
+<div class="sub-container">
 <div>Small</div>
 <div>Medium</div>
 <div>Large</div>
 </div>
 <hr/>
 <div class="block">
+<div>Icon</div>
 <div>Adults</div>
+<div>-</div>
+<div>{{adults}}</div>
+<div>+</div>
 </div>
 <hr/>
 <div class="block">
+<div>Icon</div>
 <div>Children</div>
+<div>-</div>
+<div>{{adults}}</div>
+<div>+</div>
 </div>
 </div>
 </template>
