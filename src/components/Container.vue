@@ -1,9 +1,25 @@
 <template>
 <div class="container">
 <div class="sub-container">
+<div class="block">
+<div>Icon</div>
 <div>Small</div>
+<div>-</div>
+<div>{{adults}}</div>
+<div>+</div>
+</div>
+<div class="block">
+<div>Icon</div>
 <div>Medium</div>
+<div>-</div>
+<div>{{adults}}</div>
+<div>+</div></div>
+<div class="block">
+<div>Icon</div>
 <div>Large</div>
+<div>-</div>
+<div>{{adults}}</div>
+<div>+</div></div>
 </div>
 <hr/>
 <div class="block">
@@ -50,5 +66,8 @@ hr{
 }
 .block{
   display:flex;
+}
+.block div{
+  width:20%;
 }
 </style>
